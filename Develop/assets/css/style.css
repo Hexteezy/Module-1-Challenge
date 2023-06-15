@@ -1,3 +1,8 @@
+/* Raul Valverde */
+/* Made a few changes to the identification of elements and combined them to minimize the amount of 
+different classes needed and groups of code. */
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -89,13 +94,14 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Additional formating for all the images in the benefits containers */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Styling the text within the benefits to make them aligned to match original design */
 .benefit p {
     text-align: left;
 }
